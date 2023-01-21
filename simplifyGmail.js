@@ -1,9 +1,3 @@
-/**
- * @preserve
- * Copyright (C) Michael Leggett, Made Simple LLC - All Rights Reserved
- * Proprietary and confidential; Unauthorized copying or redistribution of this file,
- * via any medium is strictly prohibited; Written by Michael Leggett (hi@simpl.fyi)
- */
 let report = () => {},
     error = () => {}
 const check = {
