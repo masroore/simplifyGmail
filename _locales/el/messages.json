@@ -1,0 +1,20 @@
+{
+   "earlier": {
+      "message": "Παλαιότερα"
+   },
+   "lastMonth": {
+      "message": "τον προηγούμενο μήνα"
+   },
+   "thisMonth": {
+      "message": "αυτο το μηνα"
+   },
+   "thisWeek": {
+      "message": "αυτή την εβδομάδα"
+   },
+   "today": {
+      "message": "σήμερα"
+   },
+   "yesterday": {
+      "message": "εχθές"
+   }
+}

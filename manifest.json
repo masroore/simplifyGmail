@@ -1,0 +1,43 @@
+{
+   "background": {
+      "scripts": [ "js/background.js", "js/trackers.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "css/images.css", "css/simplifyGmail.css" ],
+      "js": [ "js/simplifyGmail.js" ],
+      "matches": [ "https://mail.google.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self'",
+   "default_locale": "en",
+   "description": "Make Gmail simpler, more capable, and more respectful",
+   "homepage_url": "https://simpl.fyi",
+   "icons": {
+      "128": "img/app/icon128.png",
+      "48": "img/app/icon48.png",
+      "512": "img/app/icon512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkSX4e1bmJ1PLVxsPPWERLGxVnNwBo1uzcNFCZT4WfJNheCtKmmO0mPzW1smgiUPiaTkzoiS9FptxPI++9i0KJeixvgXcSBMgsYC6W7DTzKXC0hjvMec6o9vvpgapPlhANcaqJ3sZS5B8vh2HphWtVhVK9My8aJCkg/JZfFaAOeiTTiF9VVgsYjsDtpMKHs/REhBIdDpaVYjYXUJYG0Z5un6njSespenX5v4e67THOly0Rp0XWnRQ3cZettdhEjzdkg69hiZf3VDmJUUccWcD4HOYvedYnZDmuuBop+W6gL0Sy8mA5GmVRLOqplPaI6GsNAaiBSKWgFPRphUhaEA05QIDAQAB",
+   "manifest_version": 2,
+   "name": "Simplify Gmail",
+   "optional_permissions": [ "contentSettings" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "prefs/edit.html"
+   },
+   "page_action": {
+      "default_icon": {
+         "128": "img/app/icon128.png",
+         "16": "img/app/icon16.png",
+         "32": "img/app/icon32.png",
+         "48": "img/app/icon48.png"
+      },
+      "default_popup": "prefs/popup.html",
+      "default_title": "Simplify for Gmail"
+   },
+   "permissions": [ "storage", "*://mail.google.com/*", "webRequest", "webRequestBlocking", "*://*.googleusercontent.com/proxy/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.35",
+   "web_accessible_resources": [ "prefs/*", "img/app/*", "img/bg/*", "img/icons/*", "js/authUser.js" ]
+}

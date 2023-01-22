@@ -1,0 +1,20 @@
+{
+   "earlier": {
+      "message": "eldre"
+   },
+   "lastMonth": {
+      "message": "forrige måned"
+   },
+   "thisMonth": {
+      "message": "denne måneden"
+   },
+   "thisWeek": {
+      "message": "denne uka"
+   },
+   "today": {
+      "message": "i dag"
+   },
+   "yesterday": {
+      "message": "i går"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "earlier": {
+      "message": "idősebb"
+   },
+   "lastMonth": {
+      "message": "múlt hónap"
+   },
+   "thisMonth": {
+      "message": "ebben a hónapban"
+   },
+   "thisWeek": {
+      "message": "ezen a héten"
+   },
+   "today": {
+      "message": "ma"
+   },
+   "yesterday": {
+      "message": "tegnap"
+   }
+}
