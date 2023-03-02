@@ -563,6 +563,8 @@ dates.update();
 
 // Toggles custom style and returns latest state
 async function toggleSimplify(forceOnOff) {
+  //CRACKX
+  forceOnOff="on";
   if (forceOnOff === undefined || forceOnOff === "showAlert") {
     is.simplifyOn = el.html.classList.toggle("simplify");
   } else if (forceOnOff === "on") {
@@ -1224,12 +1226,15 @@ const showSimplifyWelcome = () => {
 // SIMPLIFY SUBSCRIPTION
 
 const subscription = {
-  email: false,
+  //CRACKX
+  email: "john@doe.com",
   expires: null,
   trial: null,
   lastCheck: null,
 
   verifyEmail(email) {
+    //CRACKX
+    return true;
     if (preferences.debug) {
       // I'm worried this is fragile
       const pos = get("body > input + script[nonce]")?.innerText.indexOf(email);
@@ -1349,7 +1354,8 @@ const subscription = {
 
       // Keep trial countdown on badge up to date by re-checking periodically
       // (called onHashChange, throttled to run no more than once an hour)
-      check.trial = true;
+      //CRACKX
+      check.trial = false;
       subscription.lastCheck = Date.now() - (oneHour - (timeLeft % oneHour));
       report(
         "Backdate trial check so it will check again right after there is one hour less left",
@@ -1360,6 +1366,10 @@ const subscription = {
   },
 
   async check(tries = 0) {
+    //CRACKX
+    subscription.expires = new Date(Date.now() + 365 * 86400),
+    return true;
+
     // Only try so many times to find and verify the email address
     if (tries > 20) {
       report("Never found the email address");
