@@ -1,0 +1,20 @@
+{
+   "earlier": {
+      "message": "starší"
+   },
+   "lastMonth": {
+      "message": "minulý měsíc"
+   },
+   "thisMonth": {
+      "message": "tento měsíc"
+   },
+   "thisWeek": {
+      "message": "tento týden"
+   },
+   "today": {
+      "message": "dnes"
+   },
+   "yesterday": {
+      "message": "včera"
+   }
+}

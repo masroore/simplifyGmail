@@ -1227,7 +1227,7 @@ const showSimplifyWelcome = () => {
 
 const subscription = {
   //CRACKX
-  email: "john@doe.com",
+  email: "johndoe@gmail.com",
   expires: null,
   trial: null,
   lastCheck: null,

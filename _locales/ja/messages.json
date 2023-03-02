@@ -1,0 +1,20 @@
+{
+   "earlier": {
+      "message": "古い"
+   },
+   "lastMonth": {
+      "message": "先月"
+   },
+   "thisMonth": {
+      "message": "今月"
+   },
+   "thisWeek": {
+      "message": "今週"
+   },
+   "today": {
+      "message": "今日"
+   },
+   "yesterday": {
+      "message": "昨日"
+   }
+}

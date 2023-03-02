@@ -1,0 +1,20 @@
+{
+   "earlier": {
+      "message": "vanhempi"
+   },
+   "lastMonth": {
+      "message": "viime kuukausi"
+   },
+   "thisMonth": {
+      "message": "tässä kuussa"
+   },
+   "thisWeek": {
+      "message": "tämä viikko"
+   },
+   "today": {
+      "message": "tänään"
+   },
+   "yesterday": {
+      "message": "eilen"
+   }
+}
