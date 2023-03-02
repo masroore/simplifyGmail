@@ -12,7 +12,6 @@
    "content_security_policy": "default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self'",
    "default_locale": "en",
    "description": "Make Gmail simpler, more capable, and more respectful",
-   "differential_fingerprint": "1.cd43b13393ca65bfcf2c8ac2f5f90ba93eeb907bbf60954b22508a77b2dd9cac",
    "homepage_url": "https://simpl.fyi",
    "icons": {
       "128": "img/app/icon128.png",

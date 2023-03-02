@@ -1367,7 +1367,7 @@ const subscription = {
 
   async check(tries = 0) {
     //CRACKX
-    subscription.expires = new Date(Date.now() + 365 * 86400),
+    subscription.expires = new Date(Date.now() + 365 * 86400);
     return true;
 
     // Only try so many times to find and verify the email address
